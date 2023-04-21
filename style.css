@@ -6,22 +6,27 @@
 
 /* Mensaje de advertencia */
 
-#warning{
+/* #warning{
     background: black;
     text-align: center;
     color: white;
-}
+} */
 
 /* Configuracion de la barra de navegacion */
 
 #navbar{
     display: flex;
-    padding: 1rem 5rem 1rem  5rem;
     border: 1px solid gray;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14px;
     color: #201B24;
+    height: 80px;
 }
+
+#navbar_left{
+    display: flex;
+    align-items: center;
+} 
 
 /* Configuracion de la barra de navegacion lado derecho interno de la barra de navegacion */
 
@@ -29,7 +34,6 @@
     display: flex;
     align-items: center;
     font-size: 13px;
-    font-weight: bold;
 }
 
 #navbar_rigth a{
@@ -38,9 +42,11 @@
 }
 
 #navbar_rigth ul{
-    margin-right: 1rem;
     display: flex;
+    margin-right: 1rem;
+    align-items: center;
     list-style: none;
+    height: 100%;
 }
 
 #navbar_rigth ul li{
@@ -60,17 +66,25 @@
 
 /* configuracion del menu desplegable Programas */
 
-#navbar ul #programas_list{
-    display: none;
+#navbar_rigth ul #expand_menu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 4rem;
 }
 
-
-/* configuracion del menu desplegable Capacitaciones */
-
-#navbar ul #capacitaciones_list{
+#navbar_rigth ul #expand_menu ul{
     display: none;
+    position: absolute;
+    height: max-content;
+    border: 1px solid gray;
+    width: 200px;
 }
 
+#navbar_rigth ul #expand_menu:hover ul{
+    display: block;
+    margin-top: 3rem;
+}
 
 #navbar_rigth button{
     padding: 8px 24px 8px 24px;
