@@ -37,8 +37,13 @@
 }
 
 #navbar_rigth a{
-    margin-left: 2rem;
     text-decoration: none;
+}
+
+#navbar_rigth #social_network{
+    width: 14px;
+    height: 14px;
+    margin-left: 2rem;
 }
 
 #navbar_rigth ul{
@@ -64,7 +69,7 @@
     color: rgb(0, 140, 255);
 }
 
-/* configuracion del menu desplegable Programas */
+/* configuracion del menu desplegables */
 
 #navbar_rigth ul #expand_menu{
     display: flex;
