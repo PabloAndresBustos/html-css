@@ -66,7 +66,7 @@
 
 
 #navbar_rigth ul li a:hover{
-    color: rgb(0, 140, 255);
+    color:#6b53f0;
 }
 
 /* configuracion del menu desplegables */
@@ -84,6 +84,7 @@
     height: max-content;
     border: 1px solid gray;
     width: 200px;
+    background: white;
 }
 
 #navbar_rigth ul #expand_menu:hover ul{
@@ -98,6 +99,8 @@
     font-weight: 500;
     font-size: 12px;
     background: none;
+    transition: all 0.5s ease-in;
+    transition: 0.2s;
 }
 
 #navbar_rigth button:hover{
@@ -105,3 +108,131 @@
     color: white;
     cursor: pointer;
 }
+
+/* Estilos de contenido*/
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+    
+}
+
+#contenido p{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin: 0 29% 0 29%;
+}
+
+#contenido button{
+    margin-top: 2rem;
+    border-radius: 24px;
+    padding: 0 1rem 0 1rem;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    transition: all 0.5s ease-in;
+    transition: 0.2s;
+}
+
+#contenido #contactanos{
+    border: 2px solid #201B24;
+    margin-right: 2rem;
+    width: 140px;
+    background: white;
+}
+
+#contenido #contactanos:hover{
+    background: #201B24;
+    color: white;
+    cursor: pointer;
+}
+
+#contenido #sumate{
+    width: 120px;
+    background: white;
+    color: rgb(155, 81, 224, 1);
+    border: 2px solid #6b53f0;
+}
+
+#contenido #sumate:hover{
+    background: #6b53f0;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos del bloque oscuro con los contadores */
+
+#conteo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #201b24;
+    height: 400px;
+    padding: 0 15rem 0 15rem;
+}
+
+#conteo #info{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 0 3rem 0 0.5rem;
+}
+
+#conteo #info p{
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+#conteo #info h1{
+    margin-bottom: 1rem;
+}
+
+#conteo #contador{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    float: right;
+    width: 50%;
+}
+
+#conteo #contador div h1{
+    margin-top: 2rem;
+    text-align: center; 
+    font-size: 50px;   
+}
+
+#conteo #contador div p{
+    text-align: center;
+    color: #828b9c;
+    font-size: 14px;
+}
+
+#conteo #mentores div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 0 2rem 0 2rem;
+}
+
+#conteo #mentores div p{
+    margin-top: 1.5rem;
+    float: left;
+    font-size: 30px;
+    color:  #6b53f0;
+}
+
+#conteo #mentores div h1{
+    float: right;
+    font-size: 50px;
+}
+
+/* Estilos del bloque oscuro con los contadores  - animacion de contadores */
+
+
