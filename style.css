@@ -235,6 +235,16 @@
 
 /* Estilos del bloque oscuro con los contadores  - animacion de contadores */
 
+/* Foto de fondo fijo */
+
+#foto_fondo div{
+    height: 600px;
+    background: url(./img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
