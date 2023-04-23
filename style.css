@@ -16,7 +16,7 @@
 
 #navbar{
     display: flex;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     justify-content: space-around;
     font-size: 14px;
     color: #201B24;
@@ -234,5 +234,7 @@
 }
 
 /* Estilos del bloque oscuro con los contadores  - animacion de contadores */
+
+
 
 
