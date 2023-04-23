@@ -236,18 +236,90 @@
     font-size: 50px;
 }
 
+
+
 /* Estilos del bloque oscuro con los contadores  - animacion de contadores */
 
 /* Foto de fondo fijo */
 
 #foto_fondo div{
-    height: 700px;
+    height: 28rem;
     background: url(./img/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+/* Estilos para la seccion de programas y capacitaciones */
+
+#programasCapacitaciones {
+    margin-top: 5rem;
+}
+
+#programasCapacitaciones #programas{
+    padding: 0 5rem 0 5rem;
+    display: flex;
+}
+
+#programasCapacitaciones #programas #programas_principal img{
+    width: 550px;
+    margin-top: 2rem;
+    border-radius: 0 32px 32px 32px;
+}
+
+#programasCapacitaciones #programas #programas_info{
+    padding: 5rem;
+    margin-top: 3rem;
+}
+
+#programasCapacitaciones #programas #programas_info #logo{
+    width: 200px;
+}
+
+#programasCapacitaciones #programas #programas_info p{
+    margin-top: 1rem;    
+}
+
+#programasCapacitaciones #programas #programas_info button{
+    margin-top: 2rem;
+    padding: 8px 24px 8px 24px;
+    border: 2px solid #201B24;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    background: none;
+    transition: all 0.5s ease-in;
+    transition: 0.2s;
+}
+
+#programasCapacitaciones #programas #programas_info button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#programasCapacitaciones #robotica{
+    display: flex;
+        padding: 0 5rem 0 5rem;
+}
+
+#programasCapacitaciones #robotica img{
+    width: 550px;
+    border-radius: 24px 24px 0 24px;
+}
+
+#programasCapacitaciones #robotica h3{
+    margin-top: 10rem;
+}
+
+#programasCapacitaciones #robotica p{
+    margin-top: 1rem;
+    font-size: 14px;
+    padding: 0 4rem 0 0;
+}
+
+
 
 
 
