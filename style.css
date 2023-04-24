@@ -236,12 +236,14 @@
     font-size: 50px;
 }
 
+
+
 /* Estilos del bloque oscuro con los contadores  - animacion de contadores */
 
 /* Foto de fondo fijo */
 
 #foto_fondo div{
-    height: 700px;
+    height: 28rem;
     background: url(./img/fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,6 +251,113 @@
     background-attachment: fixed;
 }
 
+/* Estilos para la seccion de programas y capacitaciones */
+
+#programasCapacitaciones {
+    margin: 5rem 0 5rem 0;
+}
+
+#programasCapacitaciones #contenidoGeneral{
+    margin-top: 8rem;
+    padding: 0 5rem 0 5rem;
+    display: flex;
+}
+
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_principal img{
+    width: 550px;
+    margin-top: 2rem;
+    border-radius: 0 32px 32px 32px;
+}
+
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info{
+    padding: 5rem;
+    margin-top: 3rem;
+}
+
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info #logo{
+    width: 200px;
+}
+
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info p{
+    margin-top: 1rem;    
+}
+
+/* Configuracion para todos los botones de esta seccion */
+
+#proCapButtons{
+    margin-top: 2rem;
+    padding: 8px 24px 8px 24px;
+    border: 2px solid #201B24;
+    border-radius: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    background: none;
+    transition: all 0.5s ease-in;
+    transition: 0.2s;
+}
+
+#proCapButtons:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#programasCapacitaciones #contenidoGeneral_revez{
+    display: flex;
+    padding: 0 8rem 0 8rem;
+}
+
+#programasCapacitaciones #contenidoGeneral_revez img{
+    width: 550px;
+    border-radius: 24px 24px 0 24px;
+}
+
+#programasCapacitaciones #contenidoGeneral_revez h3{
+    margin-top: 10rem;
+}
+
+#programasCapacitaciones #contenidoGeneral_revez p{
+    margin: 1rem 4rem 0 0;
+    font-size: 14px;
+}
+
+/* Estilos para las terjetas de pesonas */
+
+#equipo{
+    padding: 5rem;
+    background: #F4F4F5;
+}
+
+#equipo #personas{
+    display: flex;
+    background: #F4F4F5;
+}
+
+#equipo #personas #persona{
+    margin: 2rem 2.5rem 0 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    border-radius: 24px 24px 24px 0;
+}
+
+#equipo #personas #persona img{
+    border-radius: 24px 24px 0 0;
+    width: 17rem;
+    margin-bottom: 2rem;    
+}
+
+#equipo #personas #persona p{
+    color: gray;
+    font-size: 14px;
+}
+
+#equipo #personas #persona a img{
+    margin-top: 1rem;
+    width: 24px;
+}
 
 
 
