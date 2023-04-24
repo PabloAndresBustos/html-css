@@ -257,31 +257,34 @@
     margin-top: 5rem;
 }
 
-#programasCapacitaciones #programas{
+#programasCapacitaciones #contenidoGeneral{
+    margin-top: 8rem;
     padding: 0 5rem 0 5rem;
     display: flex;
 }
 
-#programasCapacitaciones #programas #programas_principal img{
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_principal img{
     width: 550px;
     margin-top: 2rem;
     border-radius: 0 32px 32px 32px;
 }
 
-#programasCapacitaciones #programas #programas_info{
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info{
     padding: 5rem;
     margin-top: 3rem;
 }
 
-#programasCapacitaciones #programas #programas_info #logo{
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info #logo{
     width: 200px;
 }
 
-#programasCapacitaciones #programas #programas_info p{
+#programasCapacitaciones #contenidoGeneral #contenidoGeneral_info p{
     margin-top: 1rem;    
 }
 
-#programasCapacitaciones #programas #programas_info button{
+/* Configuracion para todos los botos de esta seccion */
+
+#proCapButtons{
     margin-top: 2rem;
     padding: 8px 24px 8px 24px;
     border: 2px solid #201B24;
@@ -293,34 +296,27 @@
     transition: 0.2s;
 }
 
-#programasCapacitaciones #programas #programas_info button:hover{
+#proCapButtons:hover{
     background: black;
     color: white;
     cursor: pointer;
 }
 
-#programasCapacitaciones #robotica{
+#programasCapacitaciones #contenidoGeneral_revez{
     display: flex;
-        padding: 0 5rem 0 5rem;
+    padding: 0 8rem 0 8rem;
 }
 
-#programasCapacitaciones #robotica img{
+#programasCapacitaciones #contenidoGeneral_revez img{
     width: 550px;
     border-radius: 24px 24px 0 24px;
 }
 
-#programasCapacitaciones #robotica h3{
+#programasCapacitaciones #contenidoGeneral_revez h3{
     margin-top: 10rem;
 }
 
-#programasCapacitaciones #robotica p{
-    margin-top: 1rem;
+#programasCapacitaciones #contenidoGeneral_revez p{
+    margin: 1rem 4rem 0 0;
     font-size: 14px;
-    padding: 0 4rem 0 0;
 }
-
-
-
-
-
-
